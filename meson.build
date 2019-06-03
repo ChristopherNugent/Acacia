@@ -33,6 +33,7 @@ sources = files()
 subdir('data')
 subdir('po')
 subdir('src')
+subdir('tests')
 
 dependencies = [
 	dependency('gobject-2.0'),
