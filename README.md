@@ -10,12 +10,12 @@ The `app` script provides useful tools for building and installing Acacia. Run `
 # Early roadmap
 
 1. Display that info
-  1. basic git tree
-  2. info about commits
-  3. Staged/unchaged changes
-  4. Diffs
+    1. basic git tree
+    2. info about commits
+    3. Staged/unchaged changes
+    4. Diffs
 2. Do things
-  1. Stage files
-  2. Make commits
-  3. Change branches
-  4. Stash stuff
+    1. Stage files
+    2. Make commits
+    3. Change branches
+    4. Stash stuff
