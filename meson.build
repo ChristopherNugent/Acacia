@@ -31,7 +31,6 @@ c_args = [
 sources = files()
 
 subdir('data')
-subdir('po')
 subdir('src')
 subdir('tests')
 
@@ -40,7 +39,7 @@ dependencies = [
     dependency('glib-2.0'),
     dependency('granite'),
     dependency('gtk+-3.0'),
-    dependency('gee-0.8')
+    dependency('gee-0.8'),
 ]
 
 e = executable(
