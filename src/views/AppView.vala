@@ -19,6 +19,7 @@ using App.Configs;
 using App.Widgets;
 using Gtk;
 
+
 namespace App.Views {
 
     /**
@@ -34,7 +35,8 @@ namespace App.Views {
          * Constructs a new {@code AppView} object.
          */
         public AppView () {
-            
+
+
         }
     }
 }
