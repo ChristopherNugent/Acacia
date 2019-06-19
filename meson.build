@@ -7,6 +7,9 @@ project(
 gnome = import('gnome')
 i18n = import('i18n')
 
+vapi_dir = meson.current_source_dir() / 'vapi'
+add_project_arguments(['--vapidir', vapi_dir], language: 'vala')
+
 add_project_arguments(
     '-DGETTEXT_PACKAGE="@0@"'.format(meson.project_name()),
     language: 'c'
@@ -35,11 +38,12 @@ subdir('src')
 subdir('tests')
 
 dependencies = [
-	dependency('gobject-2.0'),
+    dependency('gobject-2.0'),
     dependency('glib-2.0'),
     dependency('granite'),
     dependency('gtk+-3.0'),
     dependency('gee-0.8'),
+    dependency('libgit2-glib-1.0'),
 ]
 
 e = executable(
