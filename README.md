@@ -11,11 +11,20 @@ I don't put as much time into open-source work as I used to (hurry, employment)
 but I do try to do some.
 
 
-# Should I be using Acacia now?
+# Contributing
 
-I mean you can _try_ to. It doesn't do anything right now. There isn't really
-anything more than an empty window. But you can _try_. 
+I'd _love_ for people to start contributing to Acacia. I'm not a college
+student anymore and don't always feel like a coding after a long day of...
+coding...
 
+The biggest thing I'd love to have is someone who can make sure I properly
+implement a model-view-controller architecture to save headache down the road.
+
+I'd also appreciate someone who can work on a set of wrapper classes around
+`libgit2` so that the underlying `git` objects are more easily understood.
+
+Finally, if someone can throw together a widget that displays the `git` tree
+itself, that's one of the biggest steps towards an app thats worth publishing.
 
 # Dependencies
 
@@ -30,15 +39,3 @@ Acacia has the following dependencies:
 - `libgit2-glib-dev`
 
 
-# Early roadmap
-
-1. Display that info
-    1. basic git tree (pls help)
-    2. info about commits
-    3. Staged/unchaged changes
-    4. Diffs
-2. Do things
-    1. Stage files
-    2. Make commits
-    3. Change branches
-    4. Stash stuff
