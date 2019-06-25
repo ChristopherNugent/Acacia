@@ -1,5 +1,7 @@
 # About
 
+![Welcome screen](https://i.imgur.com/VZnwPiF.png)
+
 Acacia is (going to be) a graphical git client built for elementary OS, and
 inspired by GitKraken. It'll be a long while before its ready, but you can keep
 an eye it for now.

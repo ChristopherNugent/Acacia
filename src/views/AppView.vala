@@ -18,7 +18,7 @@
 using App.Configs;
 using App.Widgets;
 using Gtk;
-
+using Ggit;
 
 namespace App.Views {
 
@@ -29,14 +29,17 @@ namespace App.Views {
      */
     public class AppView : Box {
 
-        private App.Configs.Settings _settings;
+        private Box box;
          
         /**
          * Constructs a new {@code AppView} object.
          */
+        private Repository repo;
+
+
         public AppView () {
-
-
         }
+
+
     }
 }

@@ -17,6 +17,7 @@
 
 using App.Widgets;
 using App.Views;
+using Acacia.Views;
 
 namespace App.Controllers {
 
@@ -41,7 +42,7 @@ namespace App.Controllers {
             this.headerbar = new HeaderBar ();
             this.app_view = new AppView ();
 
-            this.window.add (this.app_view);
+            this.window.add (new WelcomeView());
             this.window.set_default_size (640, 480);
             this.window.set_size_request (640, 300);
             this.window.set_titlebar (this.headerbar);
@@ -57,6 +58,10 @@ namespace App.Controllers {
 
         public void quit () {
             window.destroy ();
+        }
+
+        public void open_repository ( File repo_location ) {
+
         }
     }
 }
